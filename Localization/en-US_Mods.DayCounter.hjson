@@ -1,0 +1,68 @@
+Configs: {
+	Config: {
+		DisplayName: Config
+
+		Headers: {
+			Colors: Colors
+			General: General
+		}
+
+		TextColor: {
+			Label: Text Color
+			Tooltip: ""
+		}
+
+		BackgroundColor: {
+			Label: Background Color
+			Tooltip: ""
+		}
+
+		NotificationTime: {
+			Label: Notification Time
+			Tooltip: In ticks. 60 ticks per second, 300 ticks -> 5 seconds
+		}
+
+		PlaySound: {
+			Label: Play Sound
+			Tooltip: Play a small ding each time the day counter increases
+		}
+
+		MouseInteractionType: {
+			Label: Mouse Interaction Type
+			Tooltip: Controls how the popup can be removed. None means it will fade after the set time.
+		}
+
+		HoverAlpha: {
+			Label: Hover Alpha
+			Tooltip: ""
+		}
+
+		DefaultAlpha: {
+			Label: Default Alpha
+			Tooltip: ""
+		}
+
+		NotificationSound: {
+			Label: Notification Sound
+			Tooltip: ""
+		}
+	}
+
+	MouseInteraction: {
+		Tooltip: ""
+		None.Label: None
+		Hover.Label: Hover
+		Click.Label: Click
+	}
+
+	NotificationSoundType: {
+		Tooltip: ""
+		Bell.Label: Bell
+		ManaCrystal.Label: Mana Crystal
+		Coins.Label: Coins
+		Tink.Label: Tink
+		Pixie.Label: Pixie
+		Meowmere.Label: Meowmere
+		AchievementComplete.Label: Achievement Complete
+	}
+}

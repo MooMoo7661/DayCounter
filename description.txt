@@ -1,0 +1,19 @@
+This mod tracks days passed, and creates a little popup at the start of each day.
+The data is saved per-world, meaning each world keeps track of the days passed individually.
+
+! THIS DOES NOT COUNT DAYS PASSED WHEN THE MOD WAS NOT ENABLED !
+That is impossible, since terraria doesn't track days either, so there is no possible way to get days passed before / when the mod isn't enabled.
+
+It is configurable for the background color, text color, and popup time / noise.
+
+It works in multiplayer, and should have no issues syncing data.
+It also works for subworlds, singleplayer, and probably any other scenario.
+
+This mod is not client sided, because it relies on sending / recieving data from the server, and syncing between connected players.
+In the future, I will make it have an option to be client sided, but that means it will not grab the right day count when joining a server, and will instead start at 0.
+
+MOD COMMANDS:
+/day - displays the current day
+/preview - triggers the notification. Useful for customization with the config
+/resetday - sets the day counter to 1
+/setday - takes in one solid number, and sets the day counter
